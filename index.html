@@ -2,36 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <div class="navbar">
-            <a href="#">Home</a>
-            
-            <a href="#">About</a>
-            <a href="#">Skill</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </div>
-    </header>
-    <section class="homo">
-        <div class="homo-content">
-         
-            <h3>Hello, It's me</h3>
+    <header>
+        <div class="profile">
+            <img src="Pratik.jpg.jpg" alt="Profile Picture">
             <h1>Pratik Zope</h1>
-            <h3>And I'm a </h3>
-            <p>I'm a web designer with extensive experiance for 3 years
-                <br>expertise is to create and website design , and fronted design, and more....
-            </p>
-            <div class="homo-sci">
-
-            </div>
+            <p>Web Developer</p>
         </div>
-    </section>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Pratik Zope <br>I am passionate web developer with a keen interest in creating elegant and efficient websites. With a strong foundation in HTML, CSS, JavaScript, and various other programming languages, I thrives on bringing creative ideas to life in the digital world. Known for his attention to detail and commitment to learning, I continually seeks to expand his skills and stay updated with the latest industry trends. Whether working on front-end design or back-end development, I dedicated to delivering high-quality, user-friendly experiences.
+              .</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Core Java Programming</li>
+                <li>OOP's</li>
+                <li>Python Programming</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Portfolio</h3>
+                <p>This is my portfolio website. When I show information about me,such as my name,profile photo,about me, my skills,contact details etc.<br></p>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:zopepratik11@gmail.com">your-email@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pratik's Copy Claim</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
